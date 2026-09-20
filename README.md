@@ -328,8 +328,14 @@ py -m streamlit run app.py
 Open:
 http://localhost:8501
 
-📁 Project Structure
+## 📁 Project Structure
+
+```text
 smart-delivery-eta-delay-prediction/
+│
+├── app.py
+├── README.md
+├── requirements.txt
 │
 ├── data/
 │   └── README.md
@@ -349,7 +355,14 @@ smart-delivery-eta-delay-prediction/
 ├── notebooks/
 │   └── eda_and_prototyping.ipynb
 │
+├── screenshots/
+│   ├── executive_overview.png
+│   ├── eta_predictor.png
+│   ├── restaurant_courier.png
+│   └── model_diagnostics.png
+│
 ├── src/
+│   ├── __init__.py
 │   ├── data_generator.py
 │   ├── data_cleaning.py
 │   ├── features.py
@@ -360,21 +373,12 @@ smart-delivery-eta-delay-prediction/
 │   ├── explainability.py
 │   └── db_manager.py
 │
-├── tests/
-│   ├── test_data_cleaning.py
-│   ├── test_features.py
-│   ├── test_models.py
-│   └── test_db.py
-│
-├── screenshots/
-│   ├── executive_overview.png
-│   ├── eta_predictor.png
-│   ├── restaurant_courier.png
-│   └── model_diagnostics.png
-│
-├── app.py
-├── README.md
-└── requirements.txt
+└── tests/
+    ├── test_data_cleaning.py
+    ├── test_features.py
+    ├── test_models.py
+    └── test_db.py
+```
 
 # 🔮 Future Improvements
 
