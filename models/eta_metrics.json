@@ -1,0 +1,100 @@
+{
+  "champion_model": "XGBoost",
+  "models": {
+    "Linear Regression": {
+      "val": {
+        "mae": 2.482,
+        "rmse": 3.295,
+        "r2": 0.9497
+      },
+      "test": {
+        "mae": 2.504,
+        "rmse": 3.461,
+        "r2": 0.9419
+      }
+    },
+    "Random Forest": {
+      "val": {
+        "mae": 2.539,
+        "rmse": 3.288,
+        "r2": 0.9499
+      },
+      "test": {
+        "mae": 2.522,
+        "rmse": 3.287,
+        "r2": 0.9476
+      }
+    },
+    "XGBoost": {
+      "val": {
+        "mae": 2.328,
+        "rmse": 3.021,
+        "r2": 0.9577
+      },
+      "test": {
+        "mae": 2.339,
+        "rmse": 3.035,
+        "r2": 0.9553
+      }
+    }
+  },
+  "interval_quantiles": {
+    "q05": -3.87,
+    "q10": -3.3,
+    "q90": 4.04,
+    "q95": 5.56,
+    "val_rmse": 3.02
+  },
+  "feature_names": [
+    "distance_km",
+    "restaurant_prep_time",
+    "item_count",
+    "order_value",
+    "temperature",
+    "precipitation",
+    "active_delivery_partners",
+    "orders_last_30_min",
+    "demand_supply_ratio",
+    "traffic_score",
+    "weather_severity",
+    "distance_x_traffic",
+    "prep_x_item_count",
+    "adverse_weather_x_traffic",
+    "distance_x_weather",
+    "hist_rest_prep_time",
+    "hist_rest_delivery_time",
+    "hist_rest_delay_rate",
+    "delivery_partner_experience_months",
+    "order_size_Bulk",
+    "order_size_Large",
+    "order_size_Medium",
+    "order_size_Small",
+    "traffic_level_High",
+    "traffic_level_Jam",
+    "traffic_level_Low",
+    "traffic_level_Medium",
+    "weather_Clear",
+    "weather_Foggy",
+    "weather_Rainy",
+    "weather_Stormy",
+    "weather_Windy",
+    "peak_hour_0",
+    "peak_hour_1",
+    "is_weekend_0",
+    "is_weekend_1",
+    "day_of_week_Friday",
+    "day_of_week_Monday",
+    "day_of_week_Saturday",
+    "day_of_week_Sunday",
+    "day_of_week_Thursday",
+    "day_of_week_Tuesday",
+    "day_of_week_Wednesday",
+    "distance_bucket_Extended",
+    "distance_bucket_Long",
+    "distance_bucket_Medium",
+    "distance_bucket_Short",
+    "delivery_partner_experience_Experienced",
+    "delivery_partner_experience_Intermediate",
+    "delivery_partner_experience_Novice"
+  ]
+}

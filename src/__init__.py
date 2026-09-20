@@ -1,0 +1,4 @@
+"""
+Smart Delivery ETA & Delay Prediction Engine package.
+"""
+__version__ = "1.0.0"
