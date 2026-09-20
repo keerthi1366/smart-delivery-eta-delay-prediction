@@ -329,7 +329,6 @@ Open:
 http://localhost:8501
 
 📁 Project Structure
----text
 smart-delivery-eta-delay-prediction/
 │
 ├── data/
@@ -376,7 +375,6 @@ smart-delivery-eta-delay-prediction/
 ├── app.py
 ├── README.md
 └── requirements.txt
----
 
 # 🔮 Future Improvements
 
